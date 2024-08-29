@@ -18,4 +18,8 @@ public class Sparegris
         SaldoBreakpointReached?.Invoke(this, new CustomEventArgs(balance));
     }
 
+    public double GetBalance()
+    {
+        return balance;
+    }
 }
